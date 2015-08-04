@@ -1,0 +1,21 @@
+server:
+    port: 9999
+    contextPath: /uaa
+
+oauth:
+    google:
+        clientId: 127765774885-0a64cemtilvmrgq5gaad8k4li44iahco.apps.googleusercontent.com
+        clientSecret: zafbfV0EhibutlkcUkNoMPPs
+        tokenUri: https://accounts.google.com/o/oauth2/token
+        authUri: https://accounts.google.com/o/oauth2/auth
+        redirectsUri: https://www.example.com/oauth2callback
+security:
+    user:
+        name: test
+        password: test
+
+logging:
+    level:
+        org:
+            springframework:
+                security: DEBUG
